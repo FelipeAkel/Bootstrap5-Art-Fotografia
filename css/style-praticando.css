@@ -1,0 +1,38 @@
+/* Breakpoints */
+    /* SM >= 576 */
+    @media (min-width: 0px) {
+        h1 {
+            color: orange;
+        }
+    }
+    /* SM >= 576 */
+    @media (min-width: 576px) {
+        h1 {
+            color: red;
+        }
+    }
+    /* MD >= 768 */
+    @media (min-width: 768px) {
+        h1 {
+            color: goldenrod;
+        }
+    }
+    /* LG */
+    @media (min-width: 992px) {
+        h1 {
+            color: blue;
+        }
+    }
+    /* XL */
+    @media (min-width: 1200px) {
+        h1 {
+            color: green;
+        }
+    }
+    /* XXL */
+    @media (min-width: 1400px) {
+        h1 {
+            color: #561283;
+        }
+    }
+/* Breakpoints Fim */

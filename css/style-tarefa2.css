@@ -1,0 +1,26 @@
+.row {
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+    min-width: 200px;
+}
+.col {
+    /* border: 5px solid #4d4d4d;
+    background-color: #d4d4d4; */
+    height: 100%;
+    
+    padding: 20px;
+    margin: 0px;
+}
+
+.bi {
+    font-size: 50px;
+}
+
+.vermelho {
+    color: rgb(170, 0, 0);
+}
+
+.marrom {
+    --bs-btn-bg: #662500;
+}
