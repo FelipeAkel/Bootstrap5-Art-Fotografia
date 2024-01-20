@@ -123,3 +123,12 @@ footer a:hover {
 #social-icon-container {
     padding-bottom: 15px;
 }
+
+.margin-b-40 {
+    margin-bottom: 40px;
+}
+
+.obrigatorio {
+    color: #ff0000;
+    font-weight: bold;
+}
