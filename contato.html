@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Art com Bootstrap</title>
+    <title>Art - Contato</title>
 
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <link rel="stylesheet" href="css/style.css">
-
 
 </head>
 
@@ -34,14 +33,14 @@
         <nav id="navbar" class="container">
             <div class="row justify-content-center">
                 <a href="index.html">Home</a>
-                <a href="">Projetos</a>
+                <a href="login.html">Login</a>
                 <a href="">Artistas</a>
                 <a href="contato.html">Contato</a>
             </div>
         </nav>
 
         <!-- MAIN -->
-        <div class="container">
+        <div class="container" id="form-contato">
             <div class="row justify-content-center">
                 <h2>Formulário de Contato</h2>
                 <form class="row g-3 needs-validation margin-b-40" novalidate>
@@ -101,7 +100,7 @@
                         <small><mark>API de CEP</mark> o qual recupera os dados de endereço, estado, bairro e localidade.</small>
                     </p>
 
-                    <div class="col-3">
+                    <div class="col-md-3">
                         <label for="nr_cep" class="form-label">CEP <span class="obrigatorio">*</span></label>
                         <div class="input-group mb-3">
                             <span class="input-group-text"><i class="bi bi-geo-alt-fill"></i></span>
@@ -112,7 +111,7 @@
                         </div>
                         <div class="form-text">1º Digite o CEP</div>
                     </div>
-                    <div class="col-9">
+                    <div class="col-md-9">
                         <label for="ds_logradouro" class="form-label">Endereço <span class="obrigatorio">*</span></label>
                         <input type="text" class="form-control" id="ds_logradouro" required>
                         <div class="invalid-feedback">
